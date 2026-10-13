@@ -69,9 +69,6 @@ RECAUDO_T_Parte2_V5/
 │   └── Archivo de lease        # primary_lease.json (TTL ≈ 2.0s para detección de fallo del primario)
 ├── run_practica.py             # Orquestador principal: ejecuta todos los experimentos y genera evidencia
 ├── README.md                   # Esta guía (actualizado y profesional)
-├── IMPROVEMENTS_SUMMARY.md     # Detalle de mejoras realizadas (en español)
-├── Informe_RECAUDO-T_Parte2_V5.pdf  # Informe final del proyecto
-├── Trabajo_parcial_práctico.pdf  # Enunciado original del trabajo práctico
 └── .gitignore                  # Archivos ignorados por control de versiones
 ```
 
@@ -159,7 +156,3 @@ Este sistema satisface todos los requisitos especificados en la Parte 1 del trab
 - El sistema está diseñado para ejecutarse en localhost (127.0.0.1) para fines académicos
 - En los experimentos completos (`--full --rps 500`), se procesan **300,000 requests** en total
 - El directorio `debug/` contiene herramientas de desarrollo utilizadas durante la creación y validación del sistema - **no son necesarios para la ejecución en producción**
-
-## Equipo
-
-Implementado como parte del trabajo práctico de Sistemas Distribuidos.
