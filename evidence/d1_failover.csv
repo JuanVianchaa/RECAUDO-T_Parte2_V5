@@ -1,0 +1,2 @@
+event,detection_s,standby_status,standby_ok,latency_ms
+failover,1.949,200,1,1.866

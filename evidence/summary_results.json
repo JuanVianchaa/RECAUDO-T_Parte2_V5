@@ -1,0 +1,46 @@
+{
+  "S2": {
+    "scenario": "S2",
+    "requests": 20,
+    "rejected_pct": 100.0,
+    "block_attempt": 10,
+    "csv": "C:\\Users\\Juanito\\Downloads\\RECAUDO_T_Parte2_V5\\evidence\\s2_security.csv"
+  },
+  "P1_no_security": {
+    "scenario": "P1",
+    "priority": true,
+    "requests": 5200,
+    "validations": 5000,
+    "p95_ms": 510.284,
+    "p99_ms": 527.891,
+    "success_pct": 99.86,
+    "csv": "C:\\Users\\Juanito\\Downloads\\RECAUDO_T_Parte2_V5\\evidence\\p1_no_security.csv"
+  },
+  "P1_security_baseline": {
+    "scenario": "P1",
+    "priority": false,
+    "requests": 5200,
+    "validations": 5000,
+    "p95_ms": 22.075,
+    "p99_ms": 518.188,
+    "success_pct": 100.0,
+    "csv": "C:\\Users\\Juanito\\Downloads\\RECAUDO_T_Parte2_V5\\evidence\\p1_security_baseline.csv"
+  },
+  "P1_security_priority": {
+    "scenario": "P1",
+    "priority": true,
+    "requests": 5200,
+    "validations": 5000,
+    "p95_ms": 11.46,
+    "p99_ms": 518.11,
+    "success_pct": 100.0,
+    "csv": "C:\\Users\\Juanito\\Downloads\\RECAUDO_T_Parte2_V5\\evidence\\p1_security_priority.csv"
+  },
+  "security_overhead_p95_pct": -97.75,
+  "D1": {
+    "scenario": "D1",
+    "detection_s": 1.949,
+    "confirmed_requests_lost": 0,
+    "csv": "C:\\Users\\Juanito\\Downloads\\RECAUDO_T_Parte2_V5\\evidence\\d1_failover.csv"
+  }
+}

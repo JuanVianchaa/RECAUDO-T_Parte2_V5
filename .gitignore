@@ -1,0 +1,15 @@
+# Directorios de testing y evidencia (generados durante desarrollo)
+runtime/
+__pycache__/
+*.pyc
+*.log
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Logs de debug específicos
+server_debug_*.log
+
+# Evidencia de pruebas (mantén solo lo esencial si quieres)
+# evidencia/summary_results.json  # ← Descomenta si quieres guardar este resumen
