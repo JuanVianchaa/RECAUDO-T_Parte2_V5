@@ -3,6 +3,7 @@ runtime/
 __pycache__/
 *.pyc
 *.log
+*.pdf
 
 # Archivos temporales del sistema
 .DS_Store
